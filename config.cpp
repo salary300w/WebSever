@@ -20,13 +20,13 @@ Config::Config(){
     OPT_LINGER = 0;
 
     //数据库连接池数量,默认8
-    sql_num = 8;
+    sql_num = 0;
 
     //线程池内的线程数量,默认8
     thread_num = 8;
 
     //关闭日志,默认不关闭
-    close_log = 0;
+    close_log = 1;
 
     //并发模型,默认是proactor
     actor_model = 0;

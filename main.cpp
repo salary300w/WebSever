@@ -22,9 +22,6 @@ int main(int argc, char *argv[])
     //日志
     server.log_write();
 
-    //数据库
-    server.sql_pool();
-
     //线程池
     server.thread_pool();
 
